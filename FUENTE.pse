@@ -1,0 +1,42 @@
+
+//Archivo de prueba
+
+void main(){
+	//prueba de creacion de variables
+	int j,i,k,a, fact;
+	boolean c;
+	//prueba de asignacion de valores
+	c = true;
+	k=0;j=0;i=0;a=8;
+	fact=1;
+
+	//funcion de prueba de condiciones
+
+	if(c==true)
+		//calculo caftorial de 8
+		while(a!=0){
+			fact=fact*a;
+			a=a-1;
+		}else
+			a=10;
+
+
+	c=false;
+	//pruebas con boleanos
+	if(!c)
+		//Pruebas de whiles anidados
+		while (i<3){
+			i=i+1;
+			while(j<3){
+				j=j+1;
+				while(k<3){
+					k=k+1;
+					if(j==k && k==i)
+						a=a+1;
+				}
+				k=0;
+			}
+			j=0;
+		}
+		i=0;		
+}
